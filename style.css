@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+/* top right bottom left*/
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 450px;
+    margin: 10% auto;
+    border-radius: 5px;
+}
+.first-section{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(31, 77%, 52%);
+    width: 300px;
+    padding: 50px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 5px;
+}
+.second-section{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(184, 100%, 22%);
+    width: 300px;
+    padding: 50px;
+}
+.third-section{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(179, 100%, 13%);
+    width: 300px;
+    padding: 50px;
+    border-radius: 0px 5px 5px 0px;
+}
+.headings{
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 500;
+    color: hsl(0, 0%, 95%);
+    font-size: 33px;
+}
+.paragraphs{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+    line-height: 1.7;
+}
+.links{
+    background-color: hsl(0, 0%, 95%);
+    width: 130px;
+    height: 20px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: -40px;
+}
+.links:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.link-one{
+    color: hsl(31, 77%, 52%);
+}
+.link1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+.link-two{
+    color: hsl(184, 100%, 22%);
+}
+.link2:hover{
+    background-color: hsl(184, 100%, 22%);
+}
+.link-three{
+    color: hsl(179, 100%, 13%);
+}
+.link3:hover{
+    background-color:hsl(179, 100%, 13%);
+}
+a{
+    text-decoration: none;
+    font-family: "Lexend Deca", sans-serif;
+}
+.links:hover a{
+    color: white;
+}
+
